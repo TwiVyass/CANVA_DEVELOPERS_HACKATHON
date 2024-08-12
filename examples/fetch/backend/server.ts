@@ -1,8 +1,8 @@
 import "dotenv/config";
 import * as express from "express";
 import * as cors from "cors";
-import { createBaseServer } from "../../../utils/backend/base_backend/create";
-import { createJwtMiddleware } from "../../../utils/backend/jwt_middleware";
+import { createBaseServer } from "../../../backend/base_backend/create";
+import { createJwtMiddleware } from "../../../backend/jwt_middleware";
 
 async function main() {
   // TODO: Set the CANVA_APP_ID environment variable in the project's .env file

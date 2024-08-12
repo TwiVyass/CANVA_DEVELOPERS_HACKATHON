@@ -4,9 +4,9 @@ import * as crypto from "crypto";
 import * as express from "express";
 import * as cors from "cors";
 import * as basicAuth from "express-basic-auth";
-import { getTokenFromQueryString } from "../../../utils/backend/jwt_middleware/jwt_middleware";
-import { createBaseServer } from "../../../utils/backend/base_backend/create";
-import { createJwtMiddleware } from "../../../utils/backend/jwt_middleware";
+import { getTokenFromQueryString } from "../../../backend/jwt_middleware/jwt_middleware";
+import { createBaseServer } from "../../../backend/base_backend/create";
+import { createJwtMiddleware } from "../../../backend/jwt_middleware";
 import { JSONFileDatabase } from "./database";
 
 /**
